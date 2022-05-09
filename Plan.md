@@ -12,4 +12,8 @@
 *[x] Migrate
 *[x] Create supperuser
     Feature 3
-*[ ]  
+*[ ] create a model in projects named Project w/ 3 attributes, name, description, members as well as a def__str__(self) method on the end
+*[ ] migrate
+*[ ] test
+*[ ] commit 
+    Feature 4
