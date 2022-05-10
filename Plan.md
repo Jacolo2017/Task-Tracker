@@ -10,7 +10,7 @@
 *[x] create app named "projects" and add to INSTALLED_APPS
 *[x] create app named "tasks" and add to INSTALLED_APPS
 *[x] Migrate
-*[x] Create supperuser
+*[x] Create superuser
     Feature 3
 *[x] create a model in projects named Project w/ 3 attributes, name, description, members as well as a def__str__(self) method on the end
 *[x] migrate
@@ -53,3 +53,10 @@
 *[x] success_url = "home"
 *[x] create signup.html w/ a post form plus reqs 
 *[x] test 
+    Feature 11
+*[x] creeate Task model in tasks/models.py
+*[x] add __str__ method to model (name)
+*[ ] migrate
+*[x] test
+    Feature 12
+*[ ] 
