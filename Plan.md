@@ -18,7 +18,7 @@
 *[x] commit 
     Feature 4
 *[x] add project to admin and test
-    Feature 5
+    Feature 5 *STILL HAVING 1 ERROR*
 *[x] create urls.py in projects, add path to urls in tracker
 *[ x create a ListView for project model and path in urls ""
 *[x] create template for ListView to follow
@@ -28,4 +28,13 @@
     Feature 6
 *[x] ReverseView to project_list
     Feature 7
-*[ ] 
+*[x] register LoginView in accounts urls.py w/ path"login/" name="login"
+*[x] register "accounts/" urls.py in tracker 
+*[x] create a template directory in accounts
+*[x] create a registration directory in templates
+*[x] create login.html in registration
+*[x] in settings.py create LOGIN_ReDIRECT_URL = "home" 
+*[x] in login.html have fun5, <main>, <div>, <h1>Login, <form>post method, imput tag w/ text named "username", input tag w type password named "password", <button>Login
+*[x] test
+    Feature 8
+*[ ]
