@@ -37,4 +37,15 @@
 *[x] in login.html have fun5, <main>, <div>, <h1>Login, <form>post method, imput tag w/ text named "username", input tag w type password named "password", <button>Login
 *[x] test
     Feature 8
-*[ ]
+*[x] protect ProjectListView so only logged in can access
+*[x] change queryset of view to filter projects to logged in members
+*[ ] test *FAILURES ALL AROUND ME*
+    Feature 9
+*[x] in accounts/urls.py
+    -import LogoutView
+    -register as "logout/" & name="logout"
+*[x] in settings.py LOGOUT_REDIRECT_URL="login"
+*[x] test
+    Feature 10
+*[ ] 
+*[ ] 
