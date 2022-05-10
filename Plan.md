@@ -47,5 +47,9 @@
 *[x] in settings.py LOGOUT_REDIRECT_URL="login"
 *[x] test
     Feature 10
-*[ ] 
-*[ ] 
+*[x] in accounts/views.py import UserCreationForm (see projects views.py)
+*[x] use create_user w/ a username and password
+*[x] use the login function
+*[x] success_url = "home"
+*[x] create signup.html w/ a post form plus reqs 
+*[x] test 
