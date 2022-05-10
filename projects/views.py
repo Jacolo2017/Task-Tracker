@@ -6,3 +6,4 @@ from projects.models import Project
 class ProjectListView(ListView):
     model = Project
     template_name = "projects/list.html"
+    
