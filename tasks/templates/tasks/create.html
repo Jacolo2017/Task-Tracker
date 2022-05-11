@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Create a new task</h1>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="text" name="name">
+                <input type="text" name="start_date">
+                <input type="text" name="due_date">
+                <select name="projects" id="projects">
+                    <optiom value="project">{{ projects.all }}</optiom>
+                </select>
+                <select name="assignee" id="assignee">
+                    <option value="assignee">{{ project.members.all }}</option>
+                </select>
+                <button>Create</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

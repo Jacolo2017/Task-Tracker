@@ -18,6 +18,7 @@ from django.urls import path, include, reverse_lazy
 from django.views.generic.base import RedirectView
 
 urlpatterns = [
+    path('tasks/', include("tasks.urls")),
     path("accounts/", include('django.contrib.auth.urls')),
     path('accounts/', include("accounts.urls")),
     path("", RedirectView.as_view(url=reverse_lazy("project_list")),

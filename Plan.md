@@ -67,4 +67,20 @@
 *[x] update list.html to show number of tasks and link to project detail.html
 *[x] test
     Feature 14
+*[x] cretae CreateView w/ model=Project, fields:name, description, memebers
+*[x] must be logged in to view
+*[x] success_url should redirect to detail page
+*[x] register path as"create/" and name=create_project
+*[x] create.html w/ form
+*[ ] add link to create in list.html "button not working"
+    Feature 15
+*[x] create a createview for task with all fields except for is_completed
+*[x] must be logged in to see
+*[x] redirect to detail page of task project
+*[x] register view in url as create/ and name=create_task 
+*[x] add task urls in tracker/url
+*[x] create template for create 
+*[x] add link to create task in detail page
+*[x] test
+    Feature 16
 *[ ] 
