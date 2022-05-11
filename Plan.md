@@ -59,4 +59,12 @@
 *[ ] migrate
 *[x] test
     Feature 12
+*[x] Register Task model in admin
+    Feature 13
+*[x] create detail view in projects, must be logged in to see it
+*[x] register path in p/urls.py <int:pk>/ and name show_project
+*[x] create projects/details.html & have table showing task
+*[x] update list.html to show number of tasks and link to project detail.html
+*[x] test
+    Feature 14
 *[ ] 
