@@ -83,4 +83,9 @@
 *[x] add link to create task in detail page
 *[x] test
     Feature 16
+*[x] create list view for Task model
+*[x] assignee = current logged in user
+*[ ] register view as "mine/" name="show_my_tasks"
+*[ ] create list.html
+    Feature 17
 *[ ] 
