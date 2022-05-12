@@ -33,7 +33,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'markdownify.apps.Markdownifyconfig',
+    'markdownify.apps.MarkdownifyConfig',
     'projects.apps.ProjectsConfig',
     'accounts.apps.AccountsConfig',
     'tasks.apps.TasksConfig',
