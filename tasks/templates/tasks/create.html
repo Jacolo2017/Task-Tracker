@@ -13,15 +13,6 @@
             <form method="post">
                 {% csrf_token %}
                 {{ form.as_p }}
-                <input type="text" name="name">
-                <input type="text" name="start_date">
-                <input type="text" name="due_date">
-                <select name="projects" id="projects">
-                    <optiom value="project">{{ projects.all }}</optiom>
-                </select>
-                <select name="assignee" id="assignee">
-                    <option value="assignee">{{ project.members.all }}</option>
-                </select>
                 <button>Create</button>
             </form>
         </div>

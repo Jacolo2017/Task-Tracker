@@ -85,7 +85,11 @@
     Feature 16
 *[x] create list view for Task model
 *[x] assignee = current logged in user
-*[ ] register view as "mine/" name="show_my_tasks"
-*[ ] create list.html
+*[x] register view as "mine/" name="show_my_tasks"
+*[x] create list.html
     Feature 17
-*[ ] 
+*[x] create an updateview for Task model with only is_completed in fields
+*[x] when success_url should go to show_my_tasks 
+*[x] register in tasks/urls as <int:pk>/complete/ name=complete_task
+*[x] DO NOT MAKE TEMPLATE
+*[x] add update task view in tasks/list.html

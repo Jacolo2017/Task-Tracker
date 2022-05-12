@@ -32,3 +32,4 @@ class ProjectCreateView(CreateView):
 
     def qet_queryset(self):
         return Project.objects.filter(members=self.request.user)
+
