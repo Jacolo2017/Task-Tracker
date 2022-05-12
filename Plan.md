@@ -93,3 +93,8 @@
 *[x] register in tasks/urls as <int:pk>/complete/ name=complete_task
 *[x] DO NOT MAKE TEMPLATE
 *[x] add update task view in tasks/list.html
+    Feature 18
+*[x] install mdify and add to detail.html 
+*[x] update settings and req.txt
+*[x] test
+    Feature 19
