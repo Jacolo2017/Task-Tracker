@@ -7,9 +7,7 @@ class Project(models.Model):
     name = models.CharField(max_length=200)
     related_name = "project"
     description = models.TextField()
-    members = models.ManyToManyField(
-        "auth.User", related_name="projects"
-    )
+    members = models.ManyToManyField("auth.User", related_name="projects")
 
     def __str__(self):
         return self.name

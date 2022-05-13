@@ -21,7 +21,7 @@ urlpatterns = [
     path('tasks/', include("tasks.urls")),
     path("accounts/", include('django.contrib.auth.urls')),
     path('accounts/', include("accounts.urls")),
-    path("", RedirectView.as_view(url=reverse_lazy("project_list")),
+    path("", RedirectView.as_view(url=reverse_lazy("list_projects")),
          name="home"
          ),
     path('projects/', include("projects.urls")),

@@ -98,3 +98,5 @@
 *[x] update settings and req.txt
 *[x] test
     Feature 19
+*[x] build base.html
+*[x] add navs to show my tasks, list projects, else login, signup
